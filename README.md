@@ -27,31 +27,13 @@ anime-library/
 └── images/            # Anime cover images
 └── images/            # Anime watch links
 
-Getting Started
-Clone the repository:
+##Getting Started
 
+1.Clone the repository:
 bash
-Copiar
-Editar
 git clone https://github.com/your-username/anime-library.git
-Open index.html in your browser:
-
+2.Open index.html in your browser:
 bash
-Copiar
-Editar
 cd anime-library
 open index.html  # Or double-click the file
 
-Preview
-
-To Do
- Add search bar by title
-
-Include more genres
-
-Add pagination for large anime lists
-
-Deploy to Netlify or GitHub Pages
-
-Contributing
-Feel free to fork the project and submit pull requests.
