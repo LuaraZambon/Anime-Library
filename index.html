@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Anime Library</h1>
+  </header>
+  <section class="filters">
+    <h2>Genre</h2>
+    <button onclick="filterByGenre('All')">All</button>
+    <button onclick="filterByGenre('Action')">Action</button>
+    <button onclick="filterByGenre('Romance')">Romance</button>
+    <button onclick="filterByGenre('Comedy')">Comedy</button>
+    <button onclick="filterByGenre('Sports')">Sports</button>
+  </section>
+  <section class="controls">
+    <button onclick="sortByYear()">Sort by Year</button>
+    <button onclick="sortByRating()">Sort by Rating</button>
+    <button onclick="showRandomAnime()">Random Anime</button>
+  </section>
+  <main id="anime-container" class="anime-container"></main>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

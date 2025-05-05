@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9ff;
+    color: #111;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+  }
+  
+  .filters, .sort-controls {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  section.controls-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  section.controls-group h2 {
+    font-size: 1.1rem;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    background-color: #e2e8f0;
+    color: #111;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #cbd5e1;
+  }
+  
+  button.active {
+    background-color: #7c3aed;
+    color: #fff;
+  }
+  
+  .anime-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .anime-card {
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .anime-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .anime-card img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .anime-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .anime-card .info {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+  }
+  
+  .watch-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.4rem 0.75rem;
+    background-color: #7772d6;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: ease 0.2s;
+    cursor: pointer;
+  }
+  
+  .watch-link:hover {
+    background-color: #4338ca;
+  }
+
+  @media (min-width: 1024px) {
+    .anime-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .anime-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .anime-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
