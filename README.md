@@ -2,7 +2,7 @@
 
 A dynamic web application that displays a collection of anime titles, allowing users to filter by genre, sort by year or rating, and discover a random anime—all displayed in beautifully styled cards.
 
-## 🔍 Features
+## Features
 
 - Display a library of anime with title, genre, year, rating, description, image and link to watch.
 - Filter anime by genre (Action, Romance, Comedy, Sports).
