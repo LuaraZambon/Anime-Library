@@ -17,6 +17,8 @@ A dynamic web application that displays a collection of anime titles, allowing u
 - **CSS3**
 - **JavaScript (vanilla)**
 
+  
+
 ## Project Structure
 
 ```plaintext
@@ -26,14 +28,3 @@ anime-library/
 ├── script.js          # All interactive logic
 └── images/            # Anime cover images
 └── images/            # Anime watch links
-
-##Getting Started
-
-1.Clone the repository:
-bash
-git clone https://github.com/your-username/anime-library.git
-2.Open index.html in your browser:
-bash
-cd anime-library
-open index.html  # Or double-click the file
-
