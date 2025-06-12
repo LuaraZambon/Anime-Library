@@ -1,6 +1,6 @@
 # Anime Library
 
-A dynamic web application that displays a collection of anime titles, allowing users to filter by genre, sort by year or rating, and discover a random anime—all displayed in beautifully styled cards.
+A dynamic web application that displays a collection of anime titles, allowing users to filter by genre, sort by year or rating, and discover a random anime, all displayed in beautifully styled cards.
 
 ## Features
 
